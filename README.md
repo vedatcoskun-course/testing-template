@@ -7,11 +7,24 @@
 
 ---
 
+## How to create your repository (do this once)
+
+1. On this page click **Use this template → Create a new repository**.
+2. Repository name: exactly **`testing-project`** (lower case).
+3. Visibility: **Private** — the repository carries your student number and name.
+4. Go to **Settings → Collaborators → Add people** and add **`VedatCOSKUN`**.
+5. First commit: fill in `student.json` with your student number and your GitHub username.
+6. Fill in `proposal/Project_Proposal_Form.docx` and commit it. **The form in this repository is your submission**, not the one on Moodle.
+
+If you already created a repository under another name, rename it to `testing-project` in **Settings → General → Repository name**. GitHub redirects the old address.
+
+---
+
 ## What this repository is for
 
 This is your individual term project repository. You will use it to:
 
-1. Submit your project proposal (Week 5)
+1. Submit your project proposal (Week 6)
 2. Submit your checkpoint deliverable (Week 8 — 15 November)
 3. Submit your final tool + report (Week 14 — 22 December)
 
@@ -22,6 +35,7 @@ The project is **individual** and counts for **60% of your final grade**.
 ## Repository structure
 
 ```
+student.json                     ← Your student number and GitHub username (fill in first)
 proposal/
     Project_Proposal_Form.docx   ← Fill this and commit it
 src/
@@ -37,7 +51,7 @@ README.md                        ← Update this as you build
 
 | Milestone | Date | What to commit |
 |-----------|------|----------------|
-| Proposal  | 29 Oct 2026 (Wk 5)  | Completed `proposal/Project_Proposal_Form.docx` |
+| Proposal  | 29 Oct 2026 (Wk 6)  | Completed `proposal/Project_Proposal_Form.docx` |
 | Checkpoint | 15 Nov 2026 (Wk 8) | Working prototype in `src/`, at least one test in `tests/` |
 | Final | 22 Dec 2026 (Wk 14) | Complete tool, test results, final report |
 
@@ -65,4 +79,4 @@ git push
 
 ## Questions?
 
-Open a GitHub Issue in this repository. The instructor monitors all repositories.
+Open a GitHub Issue in this repository. The instructor monitors all repositories and answers there.
