@@ -31,18 +31,19 @@ The project is **individual** and counts for **60% of your final grade**.
 
 ---
 
-## Repository structure
+## Repository structure (keep it exactly like this)
 
 ```
 student.json                     ← Your student number and GitHub username (fill in first)
 proposal/
-    Project_Proposal_Form.docx   ← Fill this and commit it
-src/
-    (your tool's source code goes here)
-tests/
-    (your test files go here)
-README.md                        ← Update this as you build
+    Project_Proposal_Form.docx   ← Your proposal (Week 6)
+src/                             ← Your tool's source code (any language)
+tests/                           ← Your tool's own tests
+report/                          ← Checkpoint note (Week 8) and final report (Week 14)
+README.md                        ← This file: fill in the "Your project" section below as you build
 ```
+
+Do not rename or move these folders. The instructor's tools read every repository with this layout.
 
 ---
 
@@ -51,8 +52,8 @@ README.md                        ← Update this as you build
 | Milestone | Date | What to commit |
 |-----------|------|----------------|
 | Proposal  | 29 Oct 2026 (Wk 6)  | Completed `proposal/Project_Proposal_Form.docx` |
-| Checkpoint | 15 Nov 2026 (Wk 8) | Working prototype in `src/`, at least one test in `tests/` |
-| Final | 22 Dec 2026 (Wk 14) | Complete tool, test results, final report |
+| Checkpoint | 15 Nov 2026 (Wk 8) | Working prototype in `src/`, at least one test in `tests/`, a one-page `report/checkpoint.md` |
+| Final | 22 Dec 2026 (Wk 14) | Complete tool, test results, `report/final_report.pdf`, this README filled in |
 
 ---
 
@@ -79,3 +80,33 @@ git push
 ## Questions?
 
 Open a GitHub Issue in this repository. The instructor monitors all repositories and answers there.
+
+---
+
+# Your project (fill in as you build)
+
+## What the tool does
+
+_Two or three sentences: the testing problem, what the tool produces._
+
+## How to run it (one command)
+
+```bash
+# e.g.  python src/main.py --config examples/demo.json --out reports/
+```
+
+_Prerequisites: language version, how to install dependencies._
+
+## How to run the tests
+
+```bash
+# e.g.  pytest tests/
+```
+
+## Hidden-target run: what you need from the instructor
+
+_Exactly what input your tool needs for a target it has never seen (a config file? a URL? a schema? a Python file?) and in what format._
+
+## AI assistance
+
+_Which AI tools you used, for what, and how you verified their output._
