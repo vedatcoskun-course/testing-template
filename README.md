@@ -10,13 +10,12 @@
 ## How to create your repository (do this once)
 
 1. On this page click **Use this template → Create a new repository**.
-2. Repository name: exactly **`testing-project`** (lower case).
-3. Visibility: **Private** — the repository carries your student number and name.
-4. Go to **Settings → Collaborators → Add people** and add **`VedatCOSKUN`**.
-5. First commit: fill in `student.json` with your student number and your GitHub username.
-6. Fill in `proposal/Project_Proposal_Form.docx` and commit it. **The form in this repository is your submission**, not the one on Moodle.
-
-If you already created a repository under another name, rename it to `testing-project` in **Settings → General → Repository name**. GitHub redirects the old address.
+2. Owner: your own account (not the organization).
+3. Repository name: **`testing-qa-<yourname>`**, lower case, no spaces — for example `testing-qa-ahmedhagy`.
+4. Visibility: **Private** — the repository carries your student number and name.
+5. Go to **Settings → Collaborators → Add people** and add **`VedatCOSKUN`**.
+6. First commit: fill in `student.json` with your student number and your GitHub username.
+7. Fill in `proposal/Project_Proposal_Form.docx` and commit it. **The form in this repository is your submission**, not the one on Moodle.
 
 ---
 
