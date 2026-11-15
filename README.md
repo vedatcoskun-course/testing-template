@@ -21,7 +21,7 @@
 
 ## What this repository is for
 
-This is your individual term project repository. You will use it to submit your proposal, your checkpoint and your final tool + report. The project is **individual** and counts for **60% of your final grade**.
+This is your individual term project repository. You will use it to submit your proposal, a checkpoint every week and your final tool + report (dates: see Deadlines). The project is **individual** and counts for **60% of your final grade**.
 
 ---
 
@@ -35,7 +35,7 @@ src/                             ← Your tool's source code (any language)
 tests/                           ← Your tool's own tests
 report/
     ai_log.md                    ← Your AI log (see "How your project is graded")
-    checkpoint.md                ← Checkpoint note
+    checkpoint.md                ← Checkpoint notes, one dated section per checkpoint
     final_report.pdf             ← Final report
 README.md                        ← This file: fill in the "Your project" section below as you build
 ```
@@ -52,8 +52,14 @@ This table is the only place where dates are kept. Issues refer to it; if a date
 |-----------|------|----------------|
 | Proposal | Thu 29 Oct 2026 (Wk 6) | Completed `proposal/Project_Proposal_Form.docx` |
 | Proposal revisions | before the next class after your evaluation issue | The changes listed in your evaluation issue |
-| Checkpoint | commit by **Sun 22 Nov 2026**, live demo in class **Tue 24 Nov 2026** | Working prototype in `src/`, at least one test in `tests/`, `report/checkpoint.md`, `report/ai_log.md` up to date |
+| Checkpoint 1 | **Sun 22 Nov 2026** (Wk 9), live demo in class **Tue 24 Nov 2026** | Working prototype in `src/`, at least one test in `tests/`, `report/checkpoint.md`, `report/ai_log.md` up to date |
+| Checkpoint 2 | **Sun 29 Nov 2026** (Wk 10) | Progress on the next row of your Milestones table |
+| Checkpoint 3 | **Sun 6 Dec 2026** (Wk 11) | Progress on the next row of your Milestones table |
+| Checkpoint 4 | **Sun 13 Dec 2026** (Wk 12) | Tool feature-complete; the "Hidden-target run" section of this README states exactly what your tool needs |
+| Checkpoint 5 | **Sun 20 Dec 2026** (Wk 13) | Tests complete; a first version of `report/final_report.pdf` |
 | Final | **Tue 22 Dec 2026** (Wk 14) | Complete tool, test results, `report/final_report.pdf`, this README filled in; hidden-target run and 5-minute defence in class |
+
+Every checkpoint closes on **Sunday at 23:59**. For each one, add a dated section to `report/checkpoint.md` (what you did this week, what works, what comes next) and keep `report/ai_log.md` up to date. Commits after a deadline count for the next checkpoint.
 
 9–13 November is midterm week: no class and no project work is expected.
 
@@ -65,7 +71,7 @@ Use AI assistants as much as you like, but use them in small steps, not one prom
 
 1. `report/ai_log.md` — for each step, what you asked, what you got, what you changed and why.
 2. A commit history that shows your work growing over the weeks, not one large dump. Commit every time you make meaningful progress.
-3. Being able to explain and modify any part of your code when asked — at the checkpoint, at the hidden-target run (done live in class) and at the final defence.
+3. Being able to explain and modify any part of your code when asked — at the checkpoints, at the hidden-target run (done live in class) and at the final defence.
 
 A large AI-generated tool with little of your own work scores low; a modest tool with a lot of your own work scores high.
 
