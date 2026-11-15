@@ -54,14 +54,14 @@ This table is the only place where dates are kept. Issues refer to it; if a date
 | Proposal | Thu 29 Oct 2026 (Wk 6) | Completed `proposal/Project_Proposal_Form.docx` |
 | Proposal revisions | before the next class after your evaluation issue | The changes listed in your evaluation issue |
 | Weekly plan and README v2 | **Mon 16 Nov 2026, 18:00** | `report/plan.md` (your rows for CP1–CP5) and the updated "What the tool does" section of this README |
-| Checkpoint 1 | **Sun 22 Nov 2026** (Wk 9), live demo in class **Tue 24 Nov 2026** | Your CP1 row in `report/plan.md`: a working prototype in `src/`, at least one test in `tests/`, `report/checkpoints/cp1.md` |
-| Checkpoint 2 | **Sun 29 Nov 2026** (Wk 10) | Your CP2 row in `report/plan.md` |
-| Checkpoint 3 | **Sun 6 Dec 2026** (Wk 11) | Your CP3 row in `report/plan.md` |
-| Checkpoint 4 | **Sun 13 Dec 2026** (Wk 12) | Your CP4 row in `report/plan.md`; the "Hidden-target run" section of this README states exactly what your tool needs |
-| Checkpoint 5 | **Sun 20 Dec 2026** (Wk 13) | Your CP5 row in `report/plan.md`; a first version of `report/final_report.pdf` |
+| Checkpoint 1 | **Sat 21 Nov 2026** (Wk 9), live demo in class **Tue 24 Nov 2026** | Your CP1 row in `report/plan.md`: a working prototype in `src/`, at least one test in `tests/`, `report/checkpoints/cp1.md` |
+| Checkpoint 2 | **Sat 28 Nov 2026** (Wk 10) | Your CP2 row in `report/plan.md` |
+| Checkpoint 3 | **Sat 5 Dec 2026** (Wk 11) | Your CP3 row in `report/plan.md` |
+| Checkpoint 4 | **Sat 12 Dec 2026** (Wk 12) | Your CP4 row in `report/plan.md`; the "Hidden-target run" section of this README states exactly what your tool needs |
+| Checkpoint 5 | **Sat 19 Dec 2026** (Wk 13) | Your CP5 row in `report/plan.md`; a first version of `report/final_report.pdf` |
 | Final | **Tue 22 Dec 2026** (Wk 14) | Complete tool, test results, `report/final_report.pdf`, this README filled in; hidden-target run and 5-minute defence in class |
 
-Every checkpoint closes on **Sunday at 23:59**. For each one, write `report/checkpoints/cpN.md` (N = 1…5) with the headings **Done · Evidence · Time spent · Next · AI use**, and keep `report/ai_log.md` up to date. Each checkpoint is sized for 6–8 hours of work per week, AI assistance included. Commits after a deadline count for the next checkpoint.
+Every checkpoint closes on **Saturday at 23:59**. For each one, write `report/checkpoints/cpN.md` (N = 1…5) with the headings **Done · Evidence · Time spent · Next · AI use**, and keep `report/ai_log.md` up to date. Each checkpoint is sized for 6–8 hours of work per week, AI assistance included. Commits after a deadline count for the next checkpoint.
 
 9–13 November is midterm week: no class and no project work is expected.
 
