@@ -67,6 +67,21 @@ Every checkpoint closes on **Saturday at 23:59**. For each one, write `report/ch
 
 ---
 
+## How project difficulty is assessed
+
+Every project is a **general testing tool**: it works on any compatible target through a configuration file or an adapter; the target you use while building it is only the first target. Every project is scored from 1 to 10 on the same six criteria. The minimum acceptable difficulty is **7**.
+
+| Criterion | Low | High |
+|---|---|---|
+| **General tool** | works on one specific system | works on any compatible target through a configuration file or an adapter |
+| **Oracle** | the expected result is simply compared | the expected result must be computed, estimated or derived (time windows, tolerances, metamorphic relations, statistics) |
+| **Testing technique** | equivalence partitions and boundary values only | fault injection, metamorphic testing, mutation, state-based or differential testing |
+| **Measuring the tool itself** | none | planted defects, false-alarm rate, repeatability, sensitivity |
+| **Target** | a toy written by the student | an existing, independently written system |
+| **Engineering** | a short script | a tool with its own tests, configuration and reports |
+
+---
+
 ## How your project is graded
 
 Use AI assistants as much as you like, but use them in small steps, not one prompt → one finished tool. Your grade is for the work you add on top: the tests, fixes, design decisions, edge cases and debugging that are yours. Three things make that visible, so keep them:
