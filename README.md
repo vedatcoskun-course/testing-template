@@ -69,7 +69,9 @@ Every checkpoint closes on **Saturday at 23:59**. For each one, write `report/ch
 
 ## How project difficulty is assessed
 
-Every project is a **general testing tool**: it works on any compatible target through a configuration file or an adapter; the target you use while building it is only the first target. Every project is scored from 1 to 10 on the same six criteria. The minimum acceptable difficulty is **7**.
+Every project should be a **general testing tool**: it works on any compatible target through a configuration file or an adapter; the target you use while building it is only the first target. Every project is scored from 1 to 10 on the same six criteria. The minimum acceptable difficulty is **7**.
+
+**The higher the difficulty, the higher the multiplier applied to your project mark.** The difficulty score given during the term is a draft; it becomes final when the project is finished.
 
 | Criterion | Low | High |
 |---|---|---|
